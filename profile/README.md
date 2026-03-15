@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://adanos.org">
+    <img src="assets/linkedin-ad-finance-sentiment-api-v8-light.png" alt="Adanos Finance Sentiment API" width="100%" />
+  </a>
+</p>
+
 # Adanos Software
 
 Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings for financial markets.
