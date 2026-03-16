@@ -8,6 +8,30 @@
 
 Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings for financial markets.
 
+<p align="center">
+  <a href="https://pypi.org/project/adanos/">
+    <img src="https://img.shields.io/pypi/v/adanos?label=adanos&logo=python&logoColor=white" alt="adanos on PyPI" />
+  </a>
+  <a href="https://pypi.org/project/adanos-cli/">
+    <img src="https://img.shields.io/pypi/v/adanos-cli?label=adanos-cli&logo=python&logoColor=white" alt="adanos-cli on PyPI" />
+  </a>
+  <a href="https://www.npmjs.com/package/finance-sentiment">
+    <img src="https://img.shields.io/npm/v/finance-sentiment?label=finance-sentiment&logo=npm" alt="finance-sentiment on npm" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/adanos-software/adanos-cli">
+    <img src="https://img.shields.io/badge/repo-adanos--cli-111827?logo=github" alt="adanos-cli repository" />
+  </a>
+  <a href="https://github.com/adanos-software/adanos-python-sdk">
+    <img src="https://img.shields.io/badge/repo-adanos--python--sdk-111827?logo=github" alt="adanos-python-sdk repository" />
+  </a>
+  <a href="https://github.com/adanos-software/adanos-ts-sdk">
+    <img src="https://img.shields.io/badge/repo-adanos--ts--sdk-111827?logo=github" alt="adanos-ts-sdk repository" />
+  </a>
+</p>
+
 We focus on developer-first market infrastructure for:
 - traders
 - fintech products
@@ -38,8 +62,10 @@ Here you’ll find:
 - Website: [adanos.org](https://adanos.org)
 - API docs: [api.adanos.org/docs](https://api.adanos.org/docs)
 - CLI: [adanos-software/adanos-cli](https://github.com/adanos-software/adanos-cli)
+- Python SDK: [adanos-software/adanos-python-sdk](https://github.com/adanos-software/adanos-python-sdk)
+- TypeScript SDK: [adanos-software/adanos-ts-sdk](https://github.com/adanos-software/adanos-ts-sdk)
 
-## Current public repositories
+## Official packages
 
 ### `adanos-cli`
 
@@ -54,7 +80,45 @@ Install:
 
 ```bash
 pipx install adanos-cli
+curl -fsSL https://raw.githubusercontent.com/adanos-software/adanos-cli/main/install.sh | bash
+brew install adanos-software/tap/adanos-cli
 ```
+
+Repo: [adanos-software/adanos-cli](https://github.com/adanos-software/adanos-cli)
+
+### `adanos`
+
+The official Python SDK for Adanos market sentiment APIs.
+
+Built for:
+- backend services and internal tools
+- quantitative workflows and notebooks
+- agents and automation that want a typed Python client
+
+Install:
+
+```bash
+pip install adanos
+```
+
+Repo: [adanos-software/adanos-python-sdk](https://github.com/adanos-software/adanos-python-sdk)
+
+### `finance-sentiment`
+
+The official TypeScript and JavaScript SDK for Adanos market sentiment APIs.
+
+Built for:
+- Node.js services and edge functions
+- frontends and dashboards
+- agent workflows in TypeScript
+
+Install:
+
+```bash
+npm install finance-sentiment
+```
+
+Repo: [adanos-software/adanos-ts-sdk](https://github.com/adanos-software/adanos-ts-sdk)
 
 ## What powers the platform
 
