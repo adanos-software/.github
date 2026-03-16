@@ -8,7 +8,7 @@
 
 Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings for financial markets.
 
-<p align="center">
+<p>
   <a href="https://pypi.org/project/adanos/">
     <img src="https://img.shields.io/pypi/v/adanos?label=adanos&logo=python&logoColor=white" alt="adanos on PyPI" />
   </a>
@@ -20,7 +20,7 @@ Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings
   </a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/adanos-software/adanos-cli">
     <img src="https://img.shields.io/badge/repo-adanos--cli-111827?logo=github" alt="adanos-cli repository" />
   </a>
