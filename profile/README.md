@@ -18,6 +18,9 @@ Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings
   <a href="https://www.npmjs.com/package/finance-sentiment">
     <img src="https://img.shields.io/npm/v/finance-sentiment?label=finance-sentiment&logo=npm" alt="finance-sentiment on npm" />
   </a>
+  <a href="https://packagist.org/packages/adanos/adanos-php">
+    <img src="https://img.shields.io/packagist/v/adanos/adanos-php?label=adanos%2Fadanos-php&logo=packagist" alt="adanos/adanos-php on Packagist" />
+  </a>
 </p>
 
 <p>
@@ -29,6 +32,9 @@ Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings
   </a>
   <a href="https://github.com/adanos-software/adanos-ts-sdk">
     <img src="https://img.shields.io/badge/repo-adanos--ts--sdk-111827?logo=github" alt="adanos-ts-sdk repository" />
+  </a>
+  <a href="https://github.com/adanos-software/adanos-php">
+    <img src="https://img.shields.io/badge/repo-adanos--php-111827?logo=github" alt="adanos-php repository" />
   </a>
 </p>
 
@@ -54,8 +60,9 @@ This organization is the public home for Adanos open-source and developer-facing
 
 Here you’ll find:
 - official CLI tooling for the Adanos Finance Sentiment API
+- official SDKs for Python, TypeScript, and PHP
 - release workflows and distribution assets
-- future SDKs, integrations, and developer tooling from Adanos Software
+- integrations and developer tooling from Adanos Software
 
 ## Start here
 
@@ -64,6 +71,7 @@ Here you’ll find:
 - CLI: [adanos-software/adanos-cli](https://github.com/adanos-software/adanos-cli)
 - Python SDK: [adanos-software/adanos-python-sdk](https://github.com/adanos-software/adanos-python-sdk)
 - TypeScript SDK: [adanos-software/adanos-ts-sdk](https://github.com/adanos-software/adanos-ts-sdk)
+- PHP SDK: [adanos-software/adanos-php](https://github.com/adanos-software/adanos-php)
 
 ## Official packages
 
@@ -119,6 +127,23 @@ npm install finance-sentiment
 ```
 
 Repo: [adanos-software/adanos-ts-sdk](https://github.com/adanos-software/adanos-ts-sdk)
+
+### `adanos/adanos-php`
+
+The official PHP SDK for Adanos market sentiment APIs.
+
+Built for:
+- PHP backend services
+- Laravel, Symfony, and WordPress integrations
+- automation that needs a Composer-installable client
+
+Install:
+
+```bash
+composer require adanos/adanos-php
+```
+
+Repo: [adanos-software/adanos-php](https://github.com/adanos-software/adanos-php)
 
 ## What powers the platform
 
