@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://adanos.org">
+  <a href="https://adanos.com">
     <img src="assets/linkedin-ad-finance-sentiment-api-v8-light.png" alt="Adanos Finance Sentiment API" width="100%" />
   </a>
 </p>
@@ -21,6 +21,9 @@ Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings
   <a href="https://packagist.org/packages/adanos/adanos-php">
     <img src="https://img.shields.io/packagist/v/adanos/adanos-php?label=adanos%2Fadanos-php&logo=packagist" alt="adanos/adanos-php on Packagist" />
   </a>
+  <a href="https://pkg.go.dev/github.com/adanos-software/adanos-go-sdk">
+    <img src="https://img.shields.io/github/v/tag/adanos-software/adanos-go-sdk?label=adanos-go-sdk&logo=go" alt="adanos-go-sdk version" />
+  </a>
 </p>
 
 <p>
@@ -35,6 +38,9 @@ Adanos builds trading APIs, sentiment analytics, stock alerts, and live rankings
   </a>
   <a href="https://github.com/adanos-software/adanos-php">
     <img src="https://img.shields.io/badge/repo-adanos--php-111827?logo=github" alt="adanos-php repository" />
+  </a>
+  <a href="https://github.com/adanos-software/adanos-go-sdk">
+    <img src="https://img.shields.io/badge/repo-adanos--go--sdk-111827?logo=github" alt="adanos-go-sdk repository" />
   </a>
 </p>
 
@@ -60,18 +66,19 @@ This organization is the public home for Adanos open-source and developer-facing
 
 Here you’ll find:
 - official CLI tooling for the Adanos Finance Sentiment API
-- official SDKs for Python, TypeScript, and PHP
+- official SDKs for Python, TypeScript, PHP, and Go
 - release workflows and distribution assets
 - integrations and developer tooling from Adanos Software
 
 ## Start here
 
-- Website: [adanos.org](https://adanos.org)
-- API docs: [api.adanos.org/docs](https://api.adanos.org/docs)
+- Website: [adanos.com](https://adanos.com)
+- API docs: [api.adanos.com/docs](https://api.adanos.com/docs)
 - CLI: [adanos-software/adanos-cli](https://github.com/adanos-software/adanos-cli)
 - Python SDK: [adanos-software/adanos-python-sdk](https://github.com/adanos-software/adanos-python-sdk)
 - TypeScript SDK: [adanos-software/adanos-ts-sdk](https://github.com/adanos-software/adanos-ts-sdk)
 - PHP SDK: [adanos-software/adanos-php](https://github.com/adanos-software/adanos-php)
+- Go SDK: [adanos-software/adanos-go-sdk](https://github.com/adanos-software/adanos-go-sdk)
 
 ## Official packages
 
@@ -144,6 +151,22 @@ composer require adanos/adanos-php
 ```
 
 Repo: [adanos-software/adanos-php](https://github.com/adanos-software/adanos-php)
+
+### `adanos-go-sdk`
+
+The official Go SDK for Adanos market sentiment APIs.
+
+Requires Go 1.26 or newer and uses only the Go standard library.
+
+Install:
+
+```bash
+go get github.com/adanos-software/adanos-go-sdk
+```
+
+Repo: [adanos-software/adanos-go-sdk](https://github.com/adanos-software/adanos-go-sdk)
+
+Docs: [Go package documentation](https://pkg.go.dev/github.com/adanos-software/adanos-go-sdk)
 
 ## What powers the platform
 
